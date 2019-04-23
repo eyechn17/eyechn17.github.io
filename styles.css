@@ -1,3 +1,9 @@
+@media screen and (min-width: 200px) and (max-height:800px) {
+    .test {
+        font-size: 14pt;
+    }
+}
+
 a {
     color: black;
 }
@@ -176,14 +182,18 @@ h4 {
 }
 
 .card-img-top {
+    max-width: 100%;
     width: 100%;
-     height: 207px; 
+    height: 207px;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
 }
-.imgh{
+
+.imgh {
     height: 704px;
+    max-width: 100%;
 }
+
 .textcard {
     padding: 0;
 }
@@ -253,23 +263,24 @@ h4 {
     background-color: #3740FF;
     border-color: #039be5;
 }
-.btnlast{
-        color: #fff;
-        background-color: #3740FF;
-        border-color: #039be5;
-        font: 500 12px/36px Roboto,sans-serif,bold;
-        padding: 0 16px;
-        text-transform: uppercase;
-    
+
+.btnlast {
+    color: #fff;
+    background-color: #3740FF;
+    border-color: #039be5;
+    font: 500 12px/36px Roboto, sans-serif, bold;
+    padding: 0 16px;
+    text-transform: uppercase;
 }
-.btnlast:hover{
+
+.btnlast:hover {
     color: white;
     background-color: #039be5;
 }
 
 .btntxt {
     max-width: 505px;
-    font : 500 13px/36px Roboto,sans-serif;
+    font: 500 13px/36px Roboto, sans-serif;
     text-align: center;
     margin: 16px 0 24px;
     margin-left: 420px;
@@ -323,11 +334,13 @@ h4 {
     content: "|";
     margin: 0 10px;
 }
-.btnText:hover{
+
+.btnText:hover {
     color: white;
     background-color: #039be5;
 }
-.search{
+
+.search {
     position: absolute;
     right: -80px;
     transition: 0.3s;
@@ -337,4 +350,17 @@ h4 {
     font-size: 20px;
     color: gray;
     border-radius: 0 5px 5px 0;
+}
+
+.focuslong {
+    width: 100px;
+    transition: width 2s;
+}
+
+.focuslong:focus {
+    width: 500px;
+}
+
+.navbar .icon {
+    display: none;
 }
