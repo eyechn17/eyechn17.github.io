@@ -1,0 +1,469 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-width: 0 0 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topnav a:not(:first-child) {
+    display: none;
+}
+
+.topnav a.icon {
+    float: left;
+    display: block;
+    background-color: black;
+}
+
+.topnav.responsive {
+    position: relative;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.nav-menu {
+    margin-left: 5%;
+}
+
+.body {
+    padding: 72px 24px;
+    margin: 0px 167px;
+}
+
+.fonthead {
+    position: static;
+    font-weight: 500;
+    font: 400 36px/1.2222222222 "Google Sans", sans-serif;
+    margin-bottom: 32px;
+    margin-top: 78px;
+}
+
+.boxtxt {
+    margin-top: 0;
+    font: 400 18px/1.7777777778 "Roboto", sans-serif;
+    margin-bottom: 36px;
+    width: 463px;
+}
+
+.boxset {
+    margin-top: 0;
+    font: 400 18px/1.7777777778 "Roboto", sans-serif;
+    margin-bottom: 36px;
+    width: 997px;
+}
+
+.imghead {
+    width: 375px;
+    height: 311px;
+    margin-left: -379px;
+    max-width: 380px;
+    display: inline-block;
+    height: 350spx;
+    margin-top: 162px;
+}
+
+.textli {
+    font: 400 18px/1.7777777778 "Roboto", sans-serif;
+    padding-left: 24px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: inherit;
+}
+
+.item::before {
+    background: #5f6368;
+    border-radius: 50%;
+    color: #fff;
+    content: "";
+    height: 8px;
+    left: 16px;
+    margin: 12px 0 0;
+    position: absolute;
+    width: 8px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -551px;
+    margin-left: -15px;
+}
+
+.vidio {
+    width: calc((100% - 40px) / 2);
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    float: right;
+    margin: 0 0 40px 40px;
+}
+
+.font {
+    font-weight: 500;
+    text-align: center;
+    font: 400 36px/1.2222222222 "Google Sans", sans-serif;
+    margin-bottom: 32px;
+}
+
+.textP {
+    text-align: center;
+    font: 400 18px/1.7777777778 "Roboto", sans-serif;
+    margin-bottom: 36px;
+    box-sizing: border-box;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px solid #dadce0;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    width: 462px;
+}
+
+.grid {
+    display: grid;
+    gap: 32px;
+    grid-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+}
+
+h3 {
+    font: 500 18px/1.3333333333 "Google Sans", sans-serif;
+    margin-bottom: 16px;
+}
+
+.gridbox {
+    margin-top: 0;
+    font: 400 18px/1.7777777778 "Roboto", sans-serif;
+    margin-bottom: 32px;
+    width: 408px;
+}
+
+.item2::before {
+    background: #5f6368;
+    border-radius: 50%;
+    color: #fff;
+    content: "";
+    height: 8px;
+    margin: 12px 0 0;
+    position: absolute;
+    width: 8px;
+}
+
+.btn-light {
+    color: #0D55FF;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    padding: 16px 8px;
+    letter-spacing: 1px;
+    line-height: 1;
+    width: 155px;
+    font-weight: 500;
+    height: 56px;
+    margin-left: 133px;
+    -webkit-box-pack: center;
+}
+
+.btn-light:hover {
+    color: #7140FF;
+}
+
+.box {
+    margin-bottom: 32px;
+}
+
+.textCon {
+    font: 500 14px/16px Roboto, sans-serif;
+    margin: 0px;
+    padding: 24px 12px;
+}
+
+.textLink {
+    margin-top: 20px;
+    font: 16px;
+}
+
+.txtF {
+    padding: 20px 12px;
+}
+
+.boxgoogle {
+    padding: 23px 0px 24px;
+    margin: 0px 16px;
+    font: 14px/16px Roboto, sans-serif;
+}
+
+.hr {
+    margin: 48px 0 72px;
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #dadce0;
+}
+
+.imgGle {
+    margin: 0px 0px 16px;
+    max-width: 185px;
+}
+
+.padfoot {
+    margin-left: 40px;
+    font: 16px;
+}
+
+.foot {
+    margin: 0 24px;
+    font-size: 13px;
+}
+
+.footer {
+    margin: 0 24px;
+    padding: 23px 0 2px;
+    width: 100%;
+}
+
+.ft {
+    margin-left: 802px;
+    margin-right: 16px;
+}
+
+.link-group::after {
+    content: "|";
+    margin: 0 10px;
+}
+
+.btn {
+    font: 500 12px/36px Roboto, sans-serif;
+    padding: 2px 6px;
+}
+
+.btntext {
+    color: #fff;
+    background-color: #3740FF;
+    border-color: #039be5;
+}
+
+.btntext:hover {
+    color: white;
+    background-color: #039be5;
+}
+
+.devsite-site-logo {
+    height: 32px;
+    margin: 2px 0;
+}
+
+.focuslong:focus {
+    width: 500px;
+}
+
+@media only screen and (max-width: 375px) {
+    .search-inp {
+        display: none;
+    }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: left;
+        display: block;
+        background-color: black;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar {
+        width: 375px;
+        position: fixed;
+        background-color: #fff;
+        z-index: 1;
+        top: 0;
+        border-width: 0 0 1px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .nav-menu {
+        margin-left: 5%;
+    }
+    .imghead {
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 1px;
+    }
+    .fonthead {
+        margin-top: 0;
+        position: relative;
+        top: -4px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        font: 500 26px/32px Google Sans, sans-serif;
+        letter-spacing: 0px;
+        width: 350px;
+        text-align: center;
+    }
+    .body {
+        padding: 72px 10px;
+        margin: 0px 10px;
+    }
+    .boxtxt {
+        margin: 16px 0px;
+        display: grid;
+        width: 340px;
+    }
+    .boxset {
+        margin: 6px;
+        width: 500px;
+        width: 340px;
+    }
+    li {
+        margin: 8px 0px;
+        width: 100%;
+    }
+    .boxcon {
+        margin: 0px 0px 64px;
+        width: 350px;
+    }
+    .font {
+        font: 500 30px/36px Google Sans, sans-serif;
+        letter-spacing: 0.22px;
+        margin-top: 0;
+        max-width: 832px;
+        text-align: center;
+        margin: 0px 0px 24px;
+    }
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        border: 1px solid #dadce0;
+        border-radius: 0px;
+        margin-bottom: 16px;
+        width: 350px;
+    }
+    .textCon {
+        font: 500 14px/16px Roboto, sans-serif;
+        margin: 0px;
+        padding: 24px 12px;
+    }
+    .txtF {
+        padding: 24px 14px;
+    }
+    .textLink {
+        padding: 8px 0px;
+        font: 14px/16px Roboto, sans-serif;
+        display: block;
+    }
+    .textli {
+        font: 400 18px/1.7777777778 "Roboto", sans-serif;
+        padding-left: 24px;
+        margin-bottom: 8px;
+        width: 350px;
+    }
+    a {
+        color: black;
+    }
+    a:hover {
+        color: blue;
+        text-decoration: none;
+    }
+    .boxgoogle {
+        padding: 23px 0px 24px;
+        margin: 0px 16px;
+        font: 14px/16px Roboto, sans-serif;
+    }
+    .hr {
+        margin: 48px 0 72px;
+        border: 0;
+        height: 1px;
+        width: 100%;
+        background: #dadce0;
+    }
+    .padfoot {
+        padding: 8px 0px;
+        font: 14px/16px Roboto, sans-serif;
+        display: block;
+    }
+    .foot {
+        margin: 0px 24px;
+        font-size: 13px;
+    }
+    .textCard {
+        padding: 10px 5px 10px;
+    }
+    .ft {
+        margin-left: 0px;
+        width: 200px;
+    }
+    .imgGle {
+        margin: 0px 0px 16px;
+        max-width: 185px;
+    }
+    .btntext:hover {
+        color: white;
+        background-color: #039be5;
+    }
+    .btntext {
+        color: #fff;
+        background-color: #3740FF;
+        border-color: #039be5;
+    }
+    .row {
+        flex-wrap: wrap-reverse;
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        display: initial;
+    }
+    .gridbox {
+        margin: 16px 0px;
+        font: 400 18px/1.7777777778 "Roboto", sans-serif;
+        margin-bottom: 32px;
+        width: 340px;
+    }
+    .vidio {
+        width: 100%;
+        height: 260px;
+        overflow: hidden;
+        position: relative;
+        float: right;
+        margin: 0 0 40px 40px;
+    }
+}

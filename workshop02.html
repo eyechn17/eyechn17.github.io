@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/workshop02.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <a href="./workshop02_singlepage.html">
+            <img src="https://www.gstatic.com/devrel-devsite/vf2c4ef0d44527f056856a39978a8abe9c314ecfe03120ff2c73cbf0ecdfbe4b1/web/images/lockup.svg"
+                class="devsite-site-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"><i class="material-icons">
+                    dehaze
+                </i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav mr-auto nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Learn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./workshop02.html">Measure</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./workshop02_singlepage-about.html">About</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 search-inp">
+                <input class="form-control mr-sm-2 focuslong" type="text" placeholder="Search">
+                <a class="nav-link " href="#">SIGN IN</a>
+            </form>
+        </div>
+    </nav>
+    <div class="body">
+        <div class="content-top">
+            <h1 class="textbody"><b>Measure</b></h1>
+            <div>
+                <p class="text">
+                    Explore our structured learning paths to discover everything you need to know about building for the
+                    modern web.
+                </p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-default btn-light"> <img class="imggoogle"
+                        src="https://cdn.pixabay.com/photo/2015/10/31/12/56/google-1015752_960_720.png"><b>SIGN IN WITH
+                        GOOGLE</b></button>
+            </div>
+        </div>
+        <div class="score-card-container">
+            <div class="btncon">
+                <input type="email" class="form-control formcon" placeholder=" Enter a web page URL" name="email">
+                <button type="button" class="btn btndefault "><b>SWITCH URL</b></button>
+                <button type="button" class="btn btn-info btnText "><b>RUN AUDIT</b></button>
+            </div>
+            <div class="score-card-wrapper">
+                <div class="score-card">
+                    <div class="score-card-header">
+                        <span>Performance</span>
+                        <div class="gauge-progress">
+                            <svg viewbox="0 0 120 120" class="gauge" fill="none" stroke-width="2">
+                                <circle class="gauge-base" r="53" cx="60" cy="60"></circle>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" stroke-dasharray="0 329"
+                                    stroke-dashoffset="0" r="53" cx="60" cy="60"></circle>
+                            </svg>
+                            <div class="gauge-percent">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="score-card">
+                    <div class="score-card-header">
+                        <span>Accessibility</span>
+                        <div class="gauge-progress">
+                            <svg viewbox="0 0 120 120" class="gauge" fill="none" stroke-width="2">
+                                <circle class="gauge-base" r="53" cx="60" cy="60"></circle>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" stroke-dasharray="0 329"
+                                    stroke-dashoffset="0" r="53" cx="60" cy="60"></circle>
+                            </svg>
+                            <div class="gauge-percent">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="score-card">
+                    <div class="score-card-header">
+                        <span>Best Practices</span>
+                        <div class="gauge-progress">
+                            <svg viewbox="0 0 120 120" class="gauge" fill="none" stroke-width="2">
+                                <circle class="gauge-base" r="53" cx="60" cy="60"></circle>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" stroke-dasharray="0 329"
+                                    stroke-dashoffset="0" r="53" cx="60" cy="60"></circle>
+                            </svg>
+                            <div class="gauge-percent">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="score-card">
+                    <div class="score-card-header">
+                        <span>SEO</span>
+                        <div class="gauge-progress">
+                            <svg viewbox="0 0 120 120" class="gauge" fill="none" stroke-width="2">
+                                <circle class="gauge-base" r="53" cx="60" cy="60"></circle>
+                                <circle class="gauge-arc" transform="rotate(-90 60 60)" stroke-dasharray="0 329"
+                                    stroke-dashoffset="0" r="53" cx="60" cy="60"></circle>
+                            </svg>
+                            <div class="gauge-percent">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="badge-no">
+                    Audit your web page
+                </h3>
+                <div>
+                    Provide any URL, and web.dev will run a series of audits using Lighthouse. We'll generate a
+                    report of how well you did.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="badge-no">
+                    Audit your web page
+                </h3>
+                <div>
+                    Provide any URL, and web.dev will run a series of audits using Lighthouse. We'll generate a
+                    report of how well you did.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="badge-no">
+                    Audit your web page
+                </h3>
+                <div>
+                    Provide any URL, and web.dev will run a series of audits using Lighthouse. We'll generate a
+                    report of how well you did.
+                </div>
+            </div>
+        </div>
+        <div class="textbar">
+            <h2 class="head2">What is
+                Lighthouse?</h2>
+
+            <div>
+                <p class="textinformation ">
+                    Lighthouse is an open-source, automated tool for improving the quality of your web apps. It is
+                    integrated
+                    directly into the Chrome DevTools Audits panel, but can also be run from the command line, as a Node
+                    module,
+                    or by installing the Chrome Extension. Lighthouse also provides a REST API which is consumed by
+                    sites
+                    like
+                    web.dev and PageSpeed Insights.
+
+                </p>
+            </div>
+            <div class="grid">
+                <div class="iconimg ">
+                    <img class="imgicon" src="https://web.dev/_static/web/images/icons/performance.svg"
+                        aria-describedby="lh-category-performance-title">
+                    <h4>Performance</h4>
+                    <p class="stytext"> Audits for metrics like first paint and time to interactive
+                        to
+                        determine lag.</p>
+                </div>
+                <div class="iconimg">
+                    <img class="imgicon" src="https://web.dev/_static/web/images/icons/best_practices.svg"
+                        aria-describedby="lh-category-best-practices-title">
+                    <h4>Best Practices</h4>
+                    <p class="stytext">Looks for everything from HTTPS usage to
+                        correct image aspect ratios. </p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="iconimg">
+                    <img class="imgicon" src="https://web.dev/_static/web/images/icons/seo.svg"
+                        aria-describedby="lh-category-seo-title">
+                    <h4>SEO</h4>
+                    <p class="stytext">
+                        Checks for best practices to ensure your site is discoverable.
+                    </p>
+                </div>
+                <div class="iconimg">
+                    <img class="imgicon" src="https://web.dev/_static/web/images/icons/a11y.svg"
+                        aria-describedby="lh-category-accessibility-title">
+                    <h4>Accessibility</h4>
+                    <p class="stytext">
+                        Checks for common issues that may prevent users from accessing your content.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row textCon">
+        <div class="col-md-4 ">
+            <div>
+                <b>Contribute</b>
+            </div>
+            <div class="textLink">
+                <a href="#">File a bug</a>
+            </div>
+            <div class="textLink">
+                <a href="#">View source</a>
+            </div>
+        </div>
+        <div class="col-md-4 txtconn">
+            <div>
+                <b>Related content</b>
+            </div>
+            <div class="textLink">
+                <a href="#">Updates</a>
+            </div>
+            <div class="textLink">
+                <a href="#">Web Fundamentals</a>
+            </div>
+            <div class="textLink">
+                <a href="#">Case studies</a>
+            </div>
+            <div class="textLink">
+                <a href="#">DevWeb Content Firehose</a>
+            </div>
+        </div>
+        <div class="col-md-4 txtconn">
+            <div>
+                <b>Connect</b>
+            </div>
+            <div class="textLink">
+                <a href="#">Twitter</a>
+            </div>
+            <div class="textLink">
+                <a href="#">YouTube</a>
+            </div>
+            <div class="textLink">
+                <a href="#">Medium</a>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="boxgoogle">
+        <a href="#"><img src="https://developers.google.com/_static/1b4cdcc832/images/redesign-14/lockup-color.png"
+                class="devsite-site-logo imgGle" alt="Google Developers"></a>
+        <a class="padfoot" href="#">Chrome</a>
+        <a class="padfoot" href="#">Firebase</a>
+        <a class="padfoot" href="#">Google Cloud Platform</a>
+        <a class="padfoot" href="#">All products</a>
+    </div>
+    <hr>
+    <div class="foot textCard boxgoogle">
+        <a href="#" class="link-group">Terms</a>
+        <a href="#">Privacy</a>
+
+        <span class="ft">Sign up for the Google Developers newsletter</span>
+        <button type="button" class="btn btntext">SUBSCRIBE</button>
+    </div> 
+
+</body>
+
+</html>
